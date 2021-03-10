@@ -18,7 +18,7 @@
     /* navigation menu */
     nav {
         background: rgb(239, 80, 41);
-        margin: 0 auto;
+        margin-bottom: 20px;
         display: flex;
         padding: 10px;
     }
@@ -68,15 +68,15 @@
     <body>
         <!-- All content goes here -->
         
-        <div> 
+        <div id = "all-contents">
             <nav>
         
                 <h1>My glourious website</h1>
-                <ul>
-                    <li>
+                <ul id = "nav-ul"
+                    <li class = "nav-li"></li>
                     <a href="index.html"> Home </a>
                     </li>
-                    <li>
+                    <li class = "nav-li">
                     <a href="portfolio.html"> Portfolio </a>
                     </li>
                  </ul>
@@ -89,13 +89,17 @@
                 </div>
 
                 <!-- Content section -->
-                <div>
+                <div class="content">
+                    <h2>Junior Morales</h2>
+                    <p>student east asension high</p>
+                    <div>
                      <h3>Interests</h3>
-                    <ul>
+                    <ul id = "interests">
                         <li>I like my mom cookies</li>
                         <li>I like video games</li>
                         <li>I like webdesigning</li>
                     </ul>
+                    </div>
                 </div>
             </main>
         </div>
